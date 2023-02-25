@@ -11,7 +11,8 @@ import {
   MdOutlineInfo,
   MdSmartphone,
 } from 'react-icons/md'
-import { FaUserFriends } from 'react-icons/fa'
+import { RiScales3Fill, RiCommunityFill } from 'react-icons/ri'
+import { GiTeacher } from 'react-icons/gi'
 
 export default function Home() {
   return (
@@ -83,41 +84,83 @@ export default function Home() {
         </div>
       </div>
       <div className="flex w-full flex-col md:flex-row justify-between max-w-4xl pt-16 gap-10">
-        <div className="flex flex-col text-center items-center shadow-md">
-          <FaUserFriends size="3rem" color="#A95AA1" />
-          <div className="bg-accent p-0.5 w-full" />
-          <p className="text-darkBlue p-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            euismod felis dapibus nibh ullamcorper mollis. Pellentesque non arcu
-            non urna imperdiet mattis eu id felis. Nulla egestas, nisi a
-            faucibus eleifend, nibh urna blandit turpis, a auctor lacus nulla
-            non justo. Phasellus finibus arcu sodales pharetra vulputate. Duis
-            porta erat.
-          </p>
+        <div className="flex flex-col md:w-1/3 w-full text-left items-center shadow-md">
+          <h1 className="text-darkBlue text-3xl text-center p-4 uppercase">
+            Advocacy in the court room
+          </h1>
+          <RiScales3Fill size="3rem" color="#A95AA1" />
+          <div className="bg-accent p-0.5 w-full my-4" />
+          <ul className="text-darkBlue p-2 list-disc">
+            <li>
+              <p className="text-2xl">Document review</p>
+            </li>
+            <li>
+              <p className="text-2xl">Testimony</p>
+            </li>
+            <li>
+              <p className="text-2xl">Observation</p>
+            </li>
+            <li>
+              <p className="text-2xl">Data analysis</p>
+            </li>
+            <li>
+              <p className="text-2xl">Interviews</p>
+            </li>
+          </ul>
         </div>
-        <div className="flex flex-col text-center items-center shadow-md">
-          <FaUserFriends size="3rem" color="#A95AA1" />
-          <div className="bg-accent p-0.5 w-full" />
-          <p className="text-darkBlue p-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            euismod felis dapibus nibh ullamcorper mollis. Pellentesque non arcu
-            non urna imperdiet mattis eu id felis. Nulla egestas, nisi a
-            faucibus eleifend, nibh urna blandit turpis, a auctor lacus nulla
-            non justo. Phasellus finibus arcu sodales pharetra vulputate. Duis
-            porta erat.
-          </p>
+        <div className="flex flex-col md:w-1/3 w-full text-left items-center shadow-md">
+          <h1 className="text-darkBlue text-3xl text-center p-4 uppercase">
+            Special educational advocate
+          </h1>
+          <GiTeacher size="3rem" color="#A95AA1" />
+          <div className="bg-accent p-0.5 w-full my-4" />
+          <ul className="text-darkBlue p-2 list-disc">
+            <li>
+              <p className="text-2xl">Document review</p>
+            </li>
+            <li>
+              <p className="text-2xl">Meeting participation</p>
+            </li>
+            <li>
+              <p className="text-2xl">Consltation</p>
+            </li>
+            <li>
+              <p className="text-2xl">Phone calls</p>
+            </li>
+            <li>
+              <p className="text-2xl">Letter writing</p>
+            </li>
+            <li>
+              <p className="text-2xl">Plan development</p>
+            </li>
+          </ul>
         </div>
-        <div className="flex flex-col text-center items-center shadow-md">
-          <FaUserFriends size="3rem" color="#A95AA1" />
-          <div className="bg-accent p-0.5 w-full" />
-          <p className="text-darkBlue p-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            euismod felis dapibus nibh ullamcorper mollis. Pellentesque non arcu
-            non urna imperdiet mattis eu id felis. Nulla egestas, nisi a
-            faucibus eleifend, nibh urna blandit turpis, a auctor lacus nulla
-            non justo. Phasellus finibus arcu sodales pharetra vulputate. Duis
-            porta erat.
-          </p>
+        <div className="flex flex-col md:w-1/3 w-full text-left items-center shadow-md">
+          <h1 className="text-darkBlue text-3xl text-center p-4 uppercase">
+            Community education & awareness
+          </h1>
+          <RiCommunityFill size="3rem" color="#A95AA1" />
+          <div className="bg-accent p-0.5 w-full my-4" />
+          <ul className="text-darkBlue p-2 list-disc">
+            <li>
+              <p className="text-2xl">Podcasts</p>
+            </li>
+            <li>
+              <p className="text-2xl">Social media</p>
+            </li>
+            <li>
+              <p className="text-2xl">Live lectures & workshops</p>
+            </li>
+            <li>
+              <p className="text-2xl">Collaboration</p>
+            </li>
+            <li>
+              <p className="text-2xl">Plan development</p>
+            </li>
+            <li>
+              <p className="text-2xl">Accessibility consulting</p>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
