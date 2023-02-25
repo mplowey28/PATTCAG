@@ -13,17 +13,18 @@ import {
 } from 'react-icons/md'
 import { RiScales3Fill, RiCommunityFill } from 'react-icons/ri'
 import { GiTeacher } from 'react-icons/gi'
+import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center w-full pt-2 md:pt-8">
+    <main className="flex flex-col w-full pt-2 pb-40 h-full items-center">
       <div className=" grid grid-cols-2  md:grid-cols-4 max-w-7xl shadow-md">
-        <div className="bg-lightBeige flex col-span-2 row-span-1 md:col-span-4 p-4 justify-between">
+        <div className="flex col-span-2  md:col-span-4 p-4 justify-between">
           <div className="flex flex-col">
             <h1 className="text-darkBlue font-serif text-4xl uppercase">
               Patton
             </h1>
-            <h1 className="text-darkBlue text-2xl uppercase">
+            <h1 className="text-darkBlue text-2xl uppercase mr-2">
               Advocacy & Consulting, LLC
             </h1>
           </div>
@@ -70,12 +71,14 @@ export default function Home() {
             <MdOutlineContactSupport size="4rem" />
           </div>
         </div>
-        <div className="flex flex-col justify-around items-around h-40 bg-darkBlue  p-4 hover:cursor-pointer hover:shadow-[inset_-5px_-5px_9px_rgba(255,255,255,0.45),inset_5px_5px_9px_rgba(94,104,121,0.3)] hover:transorm hover:scale-95">
-          <h1 className="text-4xl text-white">About Us</h1>
-          <div className="flex w-full h-full justify-center  items-center">
-            <MdOutlineInfo size="4rem" />
+        <Link href="./about">
+          <div className="flex flex-col justify-around items-around h-40 bg-darkBlue  p-4 hover:cursor-pointer hover:shadow-[inset_-5px_-5px_9px_rgba(255,255,255,0.45),inset_5px_5px_9px_rgba(94,104,121,0.3)] hover:transorm hover:scale-95">
+            <h1 className="text-4xl text-white">About</h1>
+            <div className="flex w-full h-full justify-center  items-center">
+              <MdOutlineInfo size="4rem" />
+            </div>
           </div>
-        </div>
+        </Link>
         <div className="flex flex-col justify-around items-around h-40 bg-primaryDark p-4 hover:cursor-pointer hover:shadow-[inset_-5px_-5px_9px_rgba(255,255,255,0.45),inset_5px_5px_9px_rgba(94,104,121,0.3)] hover:transorm hover:scale-95">
           <h1 className="text-4xl text-white">Contact Us</h1>
           <div className="flex w-full h-full justify-center items-center ">
@@ -163,6 +166,6 @@ export default function Home() {
           </ul>
         </div>
       </div>
-    </div>
+    </main>
   )
 }
