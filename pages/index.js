@@ -24,7 +24,7 @@ export default function Home() {
             <h1 className="text-darkBlue font-serif text-4xl uppercase">
               Patton
             </h1>
-            <h1 className="text-darkBlue text-2xl uppercase mr-2">
+            <h1 className="text-darkBlue text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px] uppercase mr-2">
               Advocacy & Consulting, LLC
             </h1>
           </div>
@@ -93,21 +93,21 @@ export default function Home() {
           </h1>
           <RiScales3Fill size="3rem" color="#A95AA1" />
           <div className="bg-accent p-0.5 w-full my-4" />
-          <ul className="text-darkBlue p-2 list-disc">
-            <li>
-              <p className="text-2xl">Document review</p>
+          <ul className="text-darkBlue p-2 list-none list-inside">
+            <li className="text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px]">
+              Document review
             </li>
-            <li>
-              <p className="text-2xl">Testimony</p>
+            <li className="text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px]">
+              Testimony
             </li>
-            <li>
-              <p className="text-2xl">Observation</p>
+            <li className="text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px]">
+              Observation
             </li>
-            <li>
-              <p className="text-2xl">Data analysis</p>
+            <li className="text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px]">
+              Data analysis
             </li>
-            <li>
-              <p className="text-2xl">Interviews</p>
+            <li className="text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px]">
+              Interviews
             </li>
           </ul>
         </div>
@@ -117,24 +117,24 @@ export default function Home() {
           </h1>
           <GiTeacher size="3rem" color="#A95AA1" />
           <div className="bg-accent p-0.5 w-full my-4" />
-          <ul className="text-darkBlue p-2 list-disc">
-            <li>
-              <p className="text-2xl">Document review</p>
+          <ul className="text-darkBlue p-2 list-none list-inside">
+            <li className="text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px]">
+              Document review
             </li>
-            <li>
-              <p className="text-2xl">Meeting participation</p>
+            <li className="text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px]">
+              Meeting participation
             </li>
-            <li>
-              <p className="text-2xl">Consltation</p>
+            <li className="text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px]">
+              Consltation
             </li>
-            <li>
-              <p className="text-2xl">Phone calls</p>
+            <li className="text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px]">
+              Phone calls
             </li>
-            <li>
-              <p className="text-2xl">Letter writing</p>
+            <li className="text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px]">
+              Letter writing
             </li>
-            <li>
-              <p className="text-2xl">Plan development</p>
+            <li className="text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px]">
+              Plan development
             </li>
           </ul>
         </div>
@@ -144,24 +144,24 @@ export default function Home() {
           </h1>
           <RiCommunityFill size="3rem" color="#A95AA1" />
           <div className="bg-accent p-0.5 w-full my-4" />
-          <ul className="text-darkBlue p-2 list-disc">
-            <li>
-              <p className="text-2xl">Podcasts</p>
+          <ul className="text-darkBlue p-2 list-none list-inside">
+            <li className="text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px]">
+              Podcasts
             </li>
-            <li>
-              <p className="text-2xl">Social media</p>
+            <li className="text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px]">
+              Social media
             </li>
-            <li>
-              <p className="text-2xl">Live lectures & workshops</p>
+            <li className="text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px]">
+              Live lectures & workshops
             </li>
-            <li>
-              <p className="text-2xl">Collaboration</p>
+            <li className="text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px]">
+              Collaboration
             </li>
-            <li>
-              <p className="text-2xl">Plan development</p>
+            <li className="text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px]">
+              Plan development
             </li>
-            <li>
-              <p className="text-2xl">Accessibility consulting</p>
+            <li className="text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px]">
+              Accessibility consulting
             </li>
           </ul>
         </div>
