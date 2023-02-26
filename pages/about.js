@@ -1,11 +1,13 @@
 import { MdArrowBack } from 'react-icons/Md'
 import Link from 'next/link'
+import Image from 'next/image'
+import profile from '../public/images/fullProfile.jpg'
 
 const about = () => {
   return (
     <div className="flex w-full h-full justify-center p-8 pb-40">
       <div className="max-w-4xl">
-        <div className="flex w-full justify-start py-4">
+        <div className="flex w-full justify-start pt-4 pb-2">
           <Link href="/">
             <MdArrowBack
               size="3rem"
@@ -14,24 +16,30 @@ const about = () => {
             />
           </Link>
         </div>
-        <p className="text-darkBlue text-justify text-xl">
-          Dr. Jess Patton experiences the world of special needs as a parent,
-          professional, and philanthropist. In 2003, Dr. Patton graduated from
-          Penn State University with a Bachelors of Science in Special Education
-          and landed her first job as an Autistic Support Teacher with an
-          intermediate unit (IU). During her time with the IU, she served
-          children diagnosed with Autism ranging in age from five to twelve. She
-          taught in three school districts across different counties of Western
-          Pennsylvania. During her career with the IU, Dr. Patton earned her
-          Master’s of Education in Teaching and Curriculum from Penn State
-          University. Shortly after graduation, Dr. Patton started her career as
-          an adjunct professor at a local community college, where she
-          instructed courses such as Introduction to Special Education and
-          Educating Exceptional Learners. In 2017, Dr. Patton transferred to an
-          urban school district where she continues to serve as an autistic
-          support teacher for learners with complex neurodevelopmental
-          disabilities.
-        </p>
+        <div className="flex flex-col w-full justify-center text-center p-4">
+          <h1 className="text-darkBlue text-4xl">About</h1>
+        </div>
+        <div className="flex flex-col md:flex-row gap-10">
+          <Image src={profile} alt="profile picture" objectFit="cover" />
+          <p className="text-darkBlue text-justify text-xl">
+            Dr. Jess Patton experiences the world of special needs as a parent,
+            professional, and philanthropist. In 2003, Dr. Patton graduated from
+            Penn State University with a Bachelors of Science in Special
+            Education and landed her first job as an Autistic Support Teacher
+            with an intermediate unit (IU). During her time with the IU, she
+            served children diagnosed with Autism ranging in age from five to
+            twelve. She taught in three school districts across different
+            counties of Western Pennsylvania. During her career with the IU, Dr.
+            Patton earned her Master’s of Education in Teaching and Curriculum
+            from Penn State University. Shortly after graduation, Dr. Patton
+            started her career as an adjunct professor at a local community
+            college, where she instructed courses such as Introduction to
+            Special Education and Educating Exceptional Learners. In 2017, Dr.
+            Patton transferred to an urban school district where she continues
+            to serve as an autistic support teacher for learners with complex
+            neurodevelopmental disabilities.
+          </p>
+        </div>
         <div className="flex w-full justify-center">
           <div className=" bg-accent p-0.5 w-10/12 my-4" />
         </div>

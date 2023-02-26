@@ -18,7 +18,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className="flex flex-col w-full pt-2 pb-40 h-full items-center">
-      <div className=" grid grid-cols-2  md:grid-cols-4 max-w-7xl shadow-md">
+      <div className=" grid grid-cols-2  md:grid-cols-4 max-w-7xl md:shadow-md ">
         <div className="flex col-span-2  md:col-span-4 p-4 justify-between">
           <div className="flex flex-col">
             <h1 className="text-darkBlue text-4xl uppercase">Patton</h1>
@@ -85,7 +85,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex w-full flex-col md:flex-row justify-between max-w-5xl pt-16 gap-10">
-        <div className="flex flex-col md:w-1/3 w-full text-left items-center shadow-md">
+        <div className="flex flex-col md:w-1/3 w-full text-left items-center md:shadow-md ">
           <div className="h-40">
             <h1 className="text-darkBlue text-3xl text-center p-4 uppercase">
               Advocacy in the court room
@@ -111,7 +111,7 @@ export default function Home() {
             </li>
           </ul>
         </div>
-        <div className="flex flex-col md:w-1/3 w-full text-left items-center shadow-md">
+        <div className="flex flex-col md:w-1/3 w-full text-left items-center md:shadow-md ">
           <div className="h-40">
             <h1 className="text-darkBlue text-3xl text-center p-4 uppercase">
               Special educational advocate
@@ -140,7 +140,7 @@ export default function Home() {
             </li>
           </ul>
         </div>
-        <div className="flex flex-col md:w-1/3 w-full text-left items-center shadow-md">
+        <div className="flex flex-col md:w-1/3 w-full text-left items-center md:shadow-md ">
           <div className="h-40">
             <h1 className="text-darkBlue text-3xl text-center p-4 uppercase">
               Community education & awareness
