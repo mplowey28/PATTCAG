@@ -21,10 +21,8 @@ export default function Home() {
       <div className=" grid grid-cols-2  md:grid-cols-4 max-w-7xl shadow-md">
         <div className="flex col-span-2  md:col-span-4 p-4 justify-between">
           <div className="flex flex-col">
-            <h1 className="text-darkBlue font-serif text-4xl uppercase">
-              Patton
-            </h1>
-            <h1 className="text-darkBlue text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px] uppercase mr-2">
+            <h1 className="text-darkBlue text-4xl uppercase">Patton</h1>
+            <h1 className="text-darkBlue text-2xl uppercase mr-2">
               Advocacy & Consulting, LLC
             </h1>
           </div>
@@ -47,7 +45,7 @@ export default function Home() {
           </div>
         </div>
         <div className="col-span-2 row-span-2 row-start-2 h-80 relative">
-          <div className="md:w-1/2 w-1/3 text-left p-4 absolute top-0 right-0 z-10 ">
+          <div className="w-1/3 text-left text-lg p-4 absolute top-0 right-0 z-10 ">
             <h1 className="text-darkBlue text-right italic ">
               Empowering individuals with special needs and their families.
             </h1>
@@ -86,14 +84,16 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex w-full flex-col md:flex-row justify-between max-w-4xl pt-16 gap-10">
+      <div className="flex w-full flex-col md:flex-row justify-between max-w-5xl pt-16 gap-10">
         <div className="flex flex-col md:w-1/3 w-full text-left items-center shadow-md">
-          <h1 className="text-darkBlue text-3xl text-center p-4 uppercase">
-            Advocacy in the court room
-          </h1>
+          <div className="h-40">
+            <h1 className="text-darkBlue text-3xl text-center p-4 uppercase">
+              Advocacy in the court room
+            </h1>
+          </div>
           <RiScales3Fill size="3rem" color="#A95AA1" />
           <div className="bg-accent p-0.5 w-full my-4" />
-          <ul className="text-darkBlue p-2 list-none list-inside">
+          <ul className="text-darkBlue p-4 list-none list-inside w-full">
             <li className="text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px]">
               Document review
             </li>
@@ -112,12 +112,14 @@ export default function Home() {
           </ul>
         </div>
         <div className="flex flex-col md:w-1/3 w-full text-left items-center shadow-md">
-          <h1 className="text-darkBlue text-3xl text-center p-4 uppercase">
-            Special educational advocate
-          </h1>
+          <div className="h-40">
+            <h1 className="text-darkBlue text-3xl text-center p-4 uppercase">
+              Special educational advocate
+            </h1>
+          </div>
           <GiTeacher size="3rem" color="#A95AA1" />
           <div className="bg-accent p-0.5 w-full my-4" />
-          <ul className="text-darkBlue p-2 list-none list-inside">
+          <ul className="text-darkBlue p-4 list-none list-inside w-full">
             <li className="text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px]">
               Document review
             </li>
@@ -139,12 +141,14 @@ export default function Home() {
           </ul>
         </div>
         <div className="flex flex-col md:w-1/3 w-full text-left items-center shadow-md">
-          <h1 className="text-darkBlue text-3xl text-center p-4 uppercase">
-            Community education & awareness
-          </h1>
+          <div className="h-40">
+            <h1 className="text-darkBlue text-3xl text-center p-4 uppercase">
+              Community education & awareness
+            </h1>
+          </div>
           <RiCommunityFill size="3rem" color="#A95AA1" />
           <div className="bg-accent p-0.5 w-full my-4" />
-          <ul className="text-darkBlue p-2 list-none list-inside">
+          <ul className="text-darkBlue p-4 list-none list-inside w-full">
             <li className="text-2xl ml-[16px] before:content-['•\00A0'] before:ml-[-16px]">
               Podcasts
             </li>
