@@ -8,7 +8,11 @@ module.exports = {
       primaryLight: '#85C0F9',
       darkBlue: '#0F2080',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        Lexend: ['Lexend', 'sans serif'],
+      },
+    },
   },
   plugins: [],
 }
