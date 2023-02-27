@@ -17,7 +17,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className="flex flex-col w-full pt-2 pb-40 h-full items-center">
+    <main className="flex flex-col w-full pt-2 pb-[400px] md:pb-40 h-full items-center">
       <div className=" grid grid-cols-2  md:grid-cols-4 max-w-7xl md:shadow-md ">
         <div className="flex col-span-2  md:col-span-4 p-4 justify-between">
           <div className="flex flex-col">

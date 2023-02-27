@@ -1,4 +1,4 @@
-import { MdArrowBack } from 'react-icons/Md'
+import { MdArrowBack } from 'react-icons/md'
 import Link from 'next/link'
 import Image from 'next/image'
 import profile from '../public/images/fullProfile.jpg'
